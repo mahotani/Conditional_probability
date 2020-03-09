@@ -35,15 +35,16 @@
 
 生き残ったターンが多いほど強化されてしまいます。
 
-この特性が第7世代までは、**「かいひりつ」と「めいちゅうりつ」**も含まれていて、これがまたさらに厄介さを増します。
+この特性が第7世代までは、**「かいひりつ」**と
+**「めいちゅうりつ」**も含まれていて、これがまたさらに厄介さを増します。
 
 回避が上がるかもしれない対象に入っていたのです。これがとても厄介なのです。
 
-ポケモンの回避りつは1段階上昇するとこちらの技が当たる確率が
+ポケモンの回避は1段階上昇するとこちらの技が当たる確率が
 <a href="https://www.codecogs.com/eqnedit.php?latex=\times&space;\frac{3}{4}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\times&space;\frac{3}{4}" title="\times \frac{3}{4}" /></a>
 、2段階上昇すると
 <a href="https://www.codecogs.com/eqnedit.php?latex=\times&space;\frac{3}{5}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\times&space;\frac{3}{5}" title="\times \frac{3}{5}" /></a>
-となります。
+となります。(こちらの命中に補正がかかっていない場合です。)
 
 1段階上昇でも命中率100のじしんが命中率70のきあいだまよりも「ちょっとは当たるかなぁ」ぐらいのレベルに落ちるのに、2段階上昇ではきあいだまよりも「当たらねぇ」レベルまで落ちてしまいます。  
 とびひざげりなんて放っていたら膝が割り放題になってしまいますね。

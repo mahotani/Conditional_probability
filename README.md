@@ -13,7 +13,7 @@
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=P_B(A)&space;=&space;\frac{P(A&space;\bigcap&space;B)}{P(A)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P_B(A)&space;=&space;\frac{P(A&space;\bigcap&space;B)}{P(A)}" title="P_B(A) = \frac{P(A \bigcap B)}{P(A)}" /></a>
 
-これでは、初見さんはいまいちピンときません。
+これでは、初見さんである大体の高校生たちはいまいちピンときません。
 
 例題で考えてみましょう。
 

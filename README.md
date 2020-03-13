@@ -17,7 +17,8 @@
 
 例題で考えてみましょう。
 
-<p class="info">4個の赤玉と5個の白玉が入った袋から取り出した玉は袋に戻さずに2回取り出す．1回目に取り出した玉が赤玉であったとき2回目に取り出す玉が白玉である確率を求めなさい．</p>
+|4個の赤玉と5個の白玉が入った袋から取り出した玉は袋に戻さずに2回取り出す．1回目に取り出した玉が赤玉であったとき2回目に取り出す玉が白玉である確率を求めなさい．|
+|:-:|
 
 この問題をみてピンとこない高校生は、この問題を先ほどの公式に当てはめようと頑張るのですが、何が
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(A&space;\bigcap&space;B)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(A&space;\bigcap&space;B)" title="P(A \bigcap B)" /></a>

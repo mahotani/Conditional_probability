@@ -63,7 +63,7 @@
 
 この相手のオニゴーリは先ほどのムラっけオニゴーリを仮定します。
 
-|1ターン目の行動でこちらのギルガルドはオニゴーリを倒した後のことを見越して剣の舞をして攻撃力を高めました。一方、相手のオニゴーリはムラっけの発動のためまもるを選択しました。1ターン目の行動終了時に相手のオニゴーリはムラっけにより回避率を上げてしまいました。この時、2ターン目でギルガルドが命中率90％のせいなるつるぎを当てられる確率はどうなるでしょうか。なお、こちらのギルガルドは耐久に努力値を振り分けており、2ターン目の攻撃で倒されることはないものとする。|
+|1ターン目の行動でこちらのギルガルドはオニゴーリを倒した後のことを見越して剣の舞をして攻撃力を高めました。一方、相手のオニゴーリはムラっけの発動のためまもるを選択しました。1ターン目の行動終了時に相手のオニゴーリはムラっけにより回避率を上げてしまいました。この時、2ターン目でギルガルドが命中率90％のせいなるつるぎを当てられる確率はどうなるでしょうか。なお、こちらのギルガルドは、2ターン目の攻撃で倒されることはないものとする。|
 |:-:|
 
 <img width="600" alt="conditional_probability2" src="https://user-images.githubusercontent.com/39772824/76614102-c1274c80-6562-11ea-8d97-72a34a5f962c.png">
@@ -74,3 +74,44 @@
 
 流石にこの図だと長すぎてだるいので、分岐が生じている部分だけ抜き出してみます。
 
+<img width="600" alt="conditional_probability4" src="https://user-images.githubusercontent.com/39772824/76623020-fa1cec80-6575-11ea-9be2-47d5057255b3.png">
+
+各確率を書き込んでいきましょう。  
+この時、ムラっけが発動するまでは必ず起こる事象なので確率は1になります。
+
+<img width="600" alt="conditional_probability5" src="https://user-images.githubusercontent.com/39772824/76623200-61d33780-6576-11ea-9154-dbf863043570.png">
+
+ムラっけによりかいひりつが上がる確率は、他の各ステータスが上がる確率と同様に確からしいはずなので、
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{1}{7}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{1}{7}" title="\frac{1}{7}" /></a>
+それ以外が上がる確率は
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{6}{7}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{6}{7}" title="\frac{6}{7}" /></a>
+になります。
+
+<img width="600" alt="conditional_probability6" src="https://user-images.githubusercontent.com/39772824/76623556-0fdee180-6577-11ea-9908-932f43915733.png">
+
+次は以下の4パターンの確率を求めます。
+
+- かいひりつ上昇 -> せいなるつるぎ成功
+    かいひりつが上がった上でせいなるつるぎを当てられる確率は、
+
+    <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{9}{10}&space;\times&space;\frac{3}{5}&space;=&space;\frac{27}{50}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{9}{10}&space;\times&space;\frac{3}{5}&space;=&space;\frac{27}{50}" title="\frac{9}{10} \times \frac{3}{5} = \frac{27}{50}" /></a>
+
+    さらに、ムラっけでかいひりつが上がる確率は、
+    <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{1}{7}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{1}{7}" title="\frac{1}{7}" /></a>
+    なので、これをかけてあげて結果をえる。
+
+    <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{27}{50}&space;\times&space;\frac{1}{7}&space;=&space;\frac{27}{350}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{27}{50}&space;\times&space;\frac{1}{7}&space;=&space;\frac{27}{350}" title="\frac{27}{50} \times \frac{1}{7} = \frac{27}{350}" /></a>
+- かいひりつ上昇 -> せいなるつるぎ失敗
+    こちらも上記と同様に求めます。
+
+    <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{23}{50}&space;\times&space;\frac{1}{7}&space;=&space;\frac{23}{350}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{23}{50}&space;\times&space;\frac{1}{7}&space;=&space;\frac{23}{350}" title="\frac{23}{50} \times \frac{1}{7} = \frac{23}{350}" /></a>
+- かいひりつ以外のステータスが上昇 -> せいなるつるぎ成功
+
+    <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{9}{10}&space;\times&space;\frac{6}{7}&space;=&space;\frac{54}{70}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{9}{10}&space;\times&space;\frac{6}{7}&space;=&space;\frac{54}{70}" title="\frac{9}{10} \times \frac{6}{7} = \frac{54}{70}" /></a>
+- かいひりつ以外のステータスが上昇 -> せいなるつるぎ失敗
+
+    <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{1}{10}&space;\times&space;\frac{6}{7}&space;=&space;\frac{6}{70}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{1}{10}&space;\times&space;\frac{6}{7}&space;=&space;\frac{6}{70}" title="\frac{1}{10} \times \frac{6}{7} = \frac{6}{70}" /></a>
+
+これらを先ほどの樹形図に更新します。
+
+<img width="600" alt="conditional_probability7" src="https://user-images.githubusercontent.com/39772824/76624514-cbecdc00-6578-11ea-9c81-f4d6e68ea0c7.png">

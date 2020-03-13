@@ -53,7 +53,7 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=\times&space;\frac{1}{3}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\times&space;\frac{1}{3}" title="\times \frac{1}{3}" /></a>
 になってしまいます。辛い・・・
 
-## 実際の問題に当てはめてみる
+## 実際の問題に当てはめてみて樹形図を書いてみる
 
 先ほどの問題をポケモンを使った問題に変えてみます。
 
@@ -63,7 +63,7 @@
 
 この相手のオニゴーリは先ほどのムラっけオニゴーリを仮定します。
 
-|1ターン目の行動でこちらのギルガルドはオニゴーリを倒した後のことを見越して剣の舞をして攻撃力を高めました。一方、相手のオニゴーリはムラっけの発動のためまもるを選択しました。1ターン目の行動終了時に相手のオニゴーリはムラっけにより回避率を上げてしまいました。この時、2ターン目でギルガルドが命中率90％のせいなるつるぎを当てられる確率はどうなるでしょうか。なお、こちらのギルガルドは、2ターン目の攻撃で倒されることはないものとする。|
+|1ターン目の行動でこちらのギルガルドはオニゴーリを倒した後のことを見越してつるぎのまいをして攻撃力を高めました。一方、相手のオニゴーリはムラっけの発動のためまもるを選択しました。1ターン目の行動終了時に相手のオニゴーリはムラっけによりかいひりつを上げてしまいました。この時、2ターン目でギルガルドが命中率90％のせいなるつるぎを当てられる確率はどうなるでしょうか。なお、こちらのギルガルドは、2ターン目の攻撃で倒されることはないものとする。|
 |:-:|
 
 <img width="600" alt="conditional_probability2" src="https://user-images.githubusercontent.com/39772824/76614102-c1274c80-6562-11ea-8d97-72a34a5f962c.png">
@@ -115,3 +115,37 @@
 これらを先ほどの樹形図に更新します。
 
 <img width="600" alt="conditional_probability7" src="https://user-images.githubusercontent.com/39772824/76635573-065f7480-658b-11ea-88b4-8393645d464f.png">
+
+## 確率を求めてみる
+
+確率は普通、**求めたい部分/全体**で求まります。  
+これを普通の確率の問題に当てはめてみます。  
+例えば、「かいひりつが上がってしまった時、せいなるつるぎが当たる確率」のような感じです。  
+
+<img width="600" alt="conditional_probability8" src="https://user-images.githubusercontent.com/39772824/76638416-c0f17600-658f-11ea-8216-6c0bcde31c18.png">
+
+上記の図から、分子の求めたい部分は「27/350」です。  
+分母の全体は、この樹形図の一番根っこの部分。つまり一番上にあるところの確率「1」にあたります。  
+なので確率は、
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{27}{350}&space;\div&space;1&space;=&space;\frac{27}{350}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{27}{350}&space;\div&space;1&space;=&space;\frac{27}{350}" title="\frac{27}{350} \div 1 = \frac{27}{350}" /></a>
+
+通常、こんな計算をしなくても良いのですが、これからの流れを分かりやすくするためにあえてしました。
+
+実は、条件付き確率も同じように求めることができます。  
+それでは、先ほどの問題に当てはめてみます。
+
+|1ターン目の行動でこちらのギルガルドはオニゴーリを倒した後のことを見越してつるぎのまいをして攻撃力を高めました。一方、相手のオニゴーリはムラっけの発動のためまもるを選択しました。1ターン目の行動終了時に相手のオニゴーリはムラっけによりかいひりつを上げてしまいました。この時、2ターン目でギルガルドが命中率90％のせいなるつるぎを当てられる確率はどうなるでしょうか。なお、こちらのギルガルドは、2ターン目の攻撃で倒されることはないものとする。|
+|:-:|
+
+この場合、「オニゴーリがムラっけによってかいひりつを上げた」と言うことはすでに起こってしまった事象なので、そこから下の部分に注目して樹形図を見ていきます。
+
+<img width="600" alt="conditional_probability9" src="https://user-images.githubusercontent.com/39772824/76639910-60176d00-6592-11ea-87de-ff9c53e1d034.png">
+
+求めたい部分の確率は先ほどと変わりませんが、全体の確率は緑の枠で囲った注目したい部分の中の一番上(かいひりつ上昇)にあたります。
+
+<img width="600" alt="conditional_probability10" src="https://user-images.githubusercontent.com/39772824/76640892-0d3eb500-6594-11ea-960c-720db9d01023.png">
+
+よって求めたい条件付き確率は、
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{27}{350}&space;\div&space;\frac{1}{7}&space;=&space;\frac{27}{50}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{27}{350}&space;\div&space;\frac{1}{7}&space;=&space;\frac{27}{50}" title="\frac{27}{350} \div \frac{1}{7} = \frac{27}{50}" /></a>

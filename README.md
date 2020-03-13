@@ -15,7 +15,7 @@
 
 これでは、初見さんである大体の高校生たちはいまいちピンときません。
 
-例題で考えてみましょう。
+例題を見てみましょう。
 
 |4個の赤玉と5個の白玉が入った袋から取り出した玉は袋に戻さずに2回取り出す.1回目に取り出した玉が赤玉であったとき2回目に取り出す玉が白玉である確率を求めなさい．|
 |:-:|
@@ -118,13 +118,13 @@
 
 ## 確率を求めてみる
 
-確率は普通、**求めたい部分/全体**で求まります。  
+確率は普通、**対象となる部分/全体**で求まります。  
 これを普通の確率の問題に当てはめてみます。  
 例えば、「かいひりつが上がってしまった時、せいなるつるぎが当たる確率」のような感じです。  
 
 <img width="600" alt="conditional_probability8" src="https://user-images.githubusercontent.com/39772824/76638416-c0f17600-658f-11ea-8216-6c0bcde31c18.png">
 
-上記の図から、分子の求めたい部分は「27/350」です。  
+上記の図から、分子の対象となる部分は「27/350」です。  
 分母の全体は、この樹形図の一番根っこの部分。つまり一番上にあるところの確率「1」にあたります。  
 なので確率は、
 
@@ -138,14 +138,40 @@
 |1ターン目の行動でこちらのギルガルドはオニゴーリを倒した後のことを見越してつるぎのまいをして攻撃力を高めました。一方、相手のオニゴーリはムラっけの発動のためまもるを選択しました。1ターン目の行動終了時に相手のオニゴーリはムラっけによりかいひりつを上げてしまいました。この時、2ターン目でギルガルドが命中率90％のせいなるつるぎを当てられる確率はどうなるでしょうか。なお、こちらのギルガルドは、2ターン目の攻撃で倒されることはないものとする。|
 |:-:|
 
-この場合、「オニゴーリがムラっけによってかいひりつを上げた」と言うことはすでに起こってしまった事象なので、そこから下の部分に注目して樹形図を見ていきます。
+この場合、「オニゴーリがムラっけによってかいひりつを上げた」と言うことはすでに起こってしまった事象なので、そこからの部分に注目して樹形図を見ていきます。
 
 <img width="600" alt="conditional_probability9" src="https://user-images.githubusercontent.com/39772824/76639910-60176d00-6592-11ea-87de-ff9c53e1d034.png">
 
-求めたい部分の確率は先ほどと変わりませんが、全体の確率は緑の枠で囲った注目したい部分の中の一番上(かいひりつ上昇)にあたります。
+対象となる部分の確率は先ほどと変わりませんが、全体の確率は緑の枠で囲った注目したい部分の中の一番上(かいひりつ上昇)にあたります。
 
 <img width="600" alt="conditional_probability10" src="https://user-images.githubusercontent.com/39772824/76640892-0d3eb500-6594-11ea-960c-720db9d01023.png">
 
 よって求めたい条件付き確率は、
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{27}{350}&space;\div&space;\frac{1}{7}&space;=&space;\frac{27}{50}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{27}{350}&space;\div&space;\frac{1}{7}&space;=&space;\frac{27}{50}" title="\frac{27}{350} \div \frac{1}{7} = \frac{27}{50}" /></a>
+
+## 最初の問題にも当てはめてみる。
+
+実際のテストとかにはポケモンの事例などは出てくることはなく、最初に例に出した問題のようなものが出てくると思うのでそちらも同じように解いてみましょう。
+
+|4個の赤玉と5個の白玉が入った袋から取り出した玉は袋に戻さずに2回取り出す.1回目に取り出した玉が赤玉であったとき2回目に取り出す玉が白玉である確率を求めなさい．|
+|:-:|
+
+この問題を先ほどと同様に樹形図に表してみると・・・
+
+<img width="600" alt="conditional_probability11" src="https://user-images.githubusercontent.com/39772824/76642315-4e37c900-6596-11ea-9686-c4cd111cc523.png">
+
+となり、この問題は1回目に赤玉を引くことは確定しているので、1回目に赤玉を引いてからに注目していきます。
+
+<img width="600" alt="conditional_probability11" src="https://user-images.githubusercontent.com/39772824/76642465-9525be80-6596-11ea-8105-3bd406fb2d98.png">
+
+対象となる部分の確率は1回目が赤玉で2回目が白玉なので、
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{5}{18}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{5}{18}" title="\frac{5}{18}" /></a>
+。  
+全体の確率は緑の枠の一番上になるので、
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{4}{9}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{4}{9}" title="\frac{4}{9}" /></a>
+。
+
+よって求めたい条件付き確率は、
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{5}{18}&space;\div&space;\frac{4}{9}&space;=&space;\frac{5}{8}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{5}{18}&space;\div&space;\frac{4}{9}&space;=&space;\frac{5}{8}" title="\frac{5}{18} \div \frac{4}{9} = \frac{5}{8}" /></a>

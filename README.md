@@ -17,7 +17,7 @@
 
 例題で考えてみましょう。
 
-4個の赤玉と5個の白玉が入った袋から取り出した玉は袋に戻さずに2回取り出す．1回目に取り出した玉が赤玉であったとき2回目に取り出す玉が白玉である確率を求めなさい．
+<p class="info">4個の赤玉と5個の白玉が入った袋から取り出した玉は袋に戻さずに2回取り出す．1回目に取り出した玉が赤玉であったとき2回目に取り出す玉が白玉である確率を求めなさい．</p>
 
 この問題をみてピンとこない高校生は、この問題を先ほどの公式に当てはめようと頑張るのですが、何が
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(A&space;\bigcap&space;B)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(A&space;\bigcap&space;B)" title="P(A \bigcap B)" /></a>
@@ -47,3 +47,11 @@
 
 1段階上昇でも命中率100のじしんが命中率70のきあいだまよりも「ちょっとは当たるかなぁ」ぐらいのレベルに落ちるのに、2段階上昇ではきあいだまよりも「当たらねぇ」レベルまで落ちてしまいます。  
 とびひざげりなんて放っていたら膝が割り放題になってしまいますね。
+
+ちなみに、最大の6段階上昇で
+<a href="https://www.codecogs.com/eqnedit.php?latex=\times&space;\frac{1}{3}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\times&space;\frac{1}{3}" title="\times \frac{1}{3}" /></a>
+になってしまいます。辛い・・・
+
+## 実際の問題に当てはめてみる
+
+先ほどの問題をポケモンを使った問題に変えてみます。

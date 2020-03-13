@@ -159,11 +159,11 @@
 
 この問題を先ほどと同様に樹形図に表してみると・・・
 
-<img width="600" alt="conditional_probability11" src="https://user-images.githubusercontent.com/39772824/76642315-4e37c900-6596-11ea-9686-c4cd111cc523.png">
+<img width="400" alt="conditional_probability11" src="https://user-images.githubusercontent.com/39772824/76642315-4e37c900-6596-11ea-9686-c4cd111cc523.png">
 
 となり、この問題は1回目に赤玉を引くことは確定しているので、1回目に赤玉を引いてからに注目していきます。
 
-<img width="600" alt="conditional_probability11" src="https://user-images.githubusercontent.com/39772824/76642465-9525be80-6596-11ea-8105-3bd406fb2d98.png">
+<img width="400" alt="conditional_probability12" src="https://user-images.githubusercontent.com/39772824/76642465-9525be80-6596-11ea-8105-3bd406fb2d98.png">
 
 対象となる部分の確率は1回目が赤玉で2回目が白玉なので、
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{5}{18}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{5}{18}" title="\frac{5}{18}" /></a>

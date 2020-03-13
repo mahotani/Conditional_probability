@@ -74,7 +74,3 @@
 
 流石にこの図だと長すぎてだるいので、分岐が生じている部分だけ抜き出してみます。
 
-<img width="600" alt="conditional_probability4" src="https://user-images.githubusercontent.com/39772824/76618167-3bf46580-656b-11ea-967b-6193a7a19ac0.png">
-
-オニゴーリがムラっけを発動するまでは分岐が発生せず、必ず起こる事象なので確率は1になります。
-

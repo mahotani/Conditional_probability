@@ -59,7 +59,7 @@
 
 例えば、このような対面を考えてみましょう。
 
-<img width="600" alt="conditional_probability1" src="https://user-images.githubusercontent.com/39772824/76612017-d1d5c380-655e-11ea-88a6-5962b3d5f315.png">
+<img width="300" alt="conditional_probability1" src="https://user-images.githubusercontent.com/39772824/76612017-d1d5c380-655e-11ea-88a6-5962b3d5f315.png">
 
 この相手のオニゴーリは先ほどのムラっけオニゴーリを仮定します。
 
@@ -87,7 +87,7 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{6}{7}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{6}{7}" title="\frac{6}{7}" /></a>
 になります。
 
-<img width="600" alt="conditional_probability6" src="https://user-images.githubusercontent.com/39772824/76623556-0fdee180-6577-11ea-9908-932f43915733.png">
+<img width="600" alt="conditional_probability6" src="https://user-images.githubusercontent.com/39772824/76635566-03648400-658b-11ea-860d-7781db3cac60.png">
 
 次は以下の4パターンの確率を求めます。
 
@@ -114,4 +114,4 @@
 
 これらを先ほどの樹形図に更新します。
 
-<img width="600" alt="conditional_probability7" src="https://user-images.githubusercontent.com/39772824/76624514-cbecdc00-6578-11ea-9c81-f4d6e68ea0c7.png">
+<img width="600" alt="conditional_probability7" src="https://user-images.githubusercontent.com/39772824/76635573-065f7480-658b-11ea-88b4-8393645d464f.png">

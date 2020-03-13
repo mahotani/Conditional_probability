@@ -59,14 +59,14 @@
 
 例えば、このような対面を考えてみましょう。
 
-<img width="300" alt="conditional_probability1" src="https://user-images.githubusercontent.com/39772824/76612017-d1d5c380-655e-11ea-88a6-5962b3d5f315.png">
+<img width="500" alt="conditional_probability1" src="https://user-images.githubusercontent.com/39772824/76612017-d1d5c380-655e-11ea-88a6-5962b3d5f315.png">
 
 この相手のオニゴーリは先ほどのムラっけオニゴーリを仮定します。
 
 |1ターン目の行動でこちらのギルガルドはオニゴーリを倒した後のことを見越してつるぎのまいをして攻撃力を高めました。一方、相手のオニゴーリはムラっけの発動のためまもるを選択しました。1ターン目の行動終了時に相手のオニゴーリはムラっけによりかいひりつを上げてしまいました。この時、2ターン目でギルガルドが命中率90％のせいなるつるぎを当てられる確率はどうなるでしょうか。なお、こちらのギルガルドは、2ターン目の攻撃で倒されることはないものとする。|
 |:-:|
 
-<img width="300" alt="conditional_probability2" src="https://user-images.githubusercontent.com/39772824/76614102-c1274c80-6562-11ea-8d97-72a34a5f962c.png">
+<img width="450" alt="conditional_probability2" src="https://user-images.githubusercontent.com/39772824/76614102-c1274c80-6562-11ea-8d97-72a34a5f962c.png">
 
 よく中学生や高校生は確率の問題を解く時に**樹形図**を書いて考えることが多いと思うので、今回の場合も樹形図に書いていきます。
 

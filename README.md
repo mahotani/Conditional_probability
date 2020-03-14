@@ -120,13 +120,13 @@
 
 ## 確率を求めてみる
 
-確率は普通、**対象となる部分/全体**で求まります。  
+確率は普通、**求めたい部分/全体**で求まります。  
 これを普通の確率の問題に当てはめてみます。  
 例えば、「かいひりつが上がってしまった時、せいなるつるぎが当たる確率」のような感じです。  
 
 <img width="600" alt="conditional_probability8" src="https://user-images.githubusercontent.com/39772824/76638416-c0f17600-658f-11ea-8216-6c0bcde31c18.png">
 
-上記の図から、分子の対象となる部分は「27/350」です。  
+上記の図から、分子の求めたい部分は「27/350」です。  
 分母の全体は、この樹形図の一番根っこの部分。つまり一番上にあるところの確率「1」にあたります。  
 なので確率は、
 
@@ -144,7 +144,7 @@
 
 <img width="600" alt="conditional_probability9" src="https://user-images.githubusercontent.com/39772824/76639910-60176d00-6592-11ea-87de-ff9c53e1d034.png">
 
-対象となる部分の確率は先ほどと変わりませんが、全体の確率は緑の枠で囲った注目したい部分の中の一番上(かいひりつ上昇)にあたります。
+求めたい部分の確率は先ほどと変わりませんが、全体の確率は緑の枠で囲った注目したい部分の中の一番上(かいひりつ上昇)にあたります。
 
 <img width="600" alt="conditional_probability10" src="https://user-images.githubusercontent.com/39772824/76640892-0d3eb500-6594-11ea-960c-720db9d01023.png">
 
@@ -152,7 +152,7 @@
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{27}{350}&space;\div&space;\frac{1}{7}&space;=&space;\frac{27}{50}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{27}{350}&space;\div&space;\frac{1}{7}&space;=&space;\frac{27}{50}" title="\frac{27}{350} \div \frac{1}{7} = \frac{27}{50}" /></a>
 
-## 最初の問題にも当てはめてみる。
+## 最初の問題にも当てはめてみる
 
 実際のテストとかにはポケモンの事例などは出てくることはなく、最初に例に出した問題のようなものが出てくると思うのでそちらも同じように解いてみましょう。
 
@@ -167,7 +167,7 @@
 
 <img width="400" alt="conditional_probability12" src="https://user-images.githubusercontent.com/39772824/76642465-9525be80-6596-11ea-8105-3bd406fb2d98.png">
 
-対象となる部分の確率は1回目が赤玉で2回目が白玉なので、
+求めたい部分の確率は1回目が赤玉で2回目が白玉なので、
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{5}{18}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{5}{18}" title="\frac{5}{18}" /></a>
 。  
 全体の確率は緑の枠の一番上になるので、

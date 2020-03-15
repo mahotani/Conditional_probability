@@ -94,17 +94,10 @@
 次は以下の4パターンの確率を求めます。
 
 - かいひりつ上昇 -> せいなるつるぎ成功
-    かいひりつが上がった上でせいなるつるぎを当てられる確率は、
 
-    <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{9}{10}&space;\times&space;\frac{3}{5}&space;=&space;\frac{27}{50}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{9}{10}&space;\times&space;\frac{3}{5}&space;=&space;\frac{27}{50}" title="\frac{9}{10} \times \frac{3}{5} = \frac{27}{50}" /></a>
+    <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{1}{7}&space;\times&space;\frac{9}{10}&space;\times&space;\frac{3}{5}&space;=&space;\frac{27}{350}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{1}{7}&space;\times&space;\frac{9}{10}&space;\times&space;\frac{3}{5}&space;=&space;\frac{27}{350}" title="\frac{1}{7} \times \frac{9}{10} \times \frac{3}{5} = \frac{27}{350}" /></a>
 
-    さらに、ムラっけでかいひりつが上がる確率は、
-    <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{1}{7}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{1}{7}" title="\frac{1}{7}" /></a>
-    なので、これをかけてあげて結果をえる。
-
-    <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{27}{50}&space;\times&space;\frac{1}{7}&space;=&space;\frac{27}{350}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{27}{50}&space;\times&space;\frac{1}{7}&space;=&space;\frac{27}{350}" title="\frac{27}{50} \times \frac{1}{7} = \frac{27}{350}" /></a>
 - かいひりつ上昇 -> せいなるつるぎ失敗
-    こちらも上記と同様に求めます。
 
     <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{23}{50}&space;\times&space;\frac{1}{7}&space;=&space;\frac{23}{350}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{23}{50}&space;\times&space;\frac{1}{7}&space;=&space;\frac{23}{350}" title="\frac{23}{50} \times \frac{1}{7} = \frac{23}{350}" /></a>
 - かいひりつ以外のステータスが上昇 -> せいなるつるぎ成功
@@ -141,8 +134,6 @@
 |:-:|
 
 この場合、「オニゴーリがムラっけによってかいひりつを上げた」と言うことはすでに起こってしまった事象なので、そこからの部分に注目して樹形図を見ていきます。
-
-<img width="600" alt="conditional_probability9" src="https://user-images.githubusercontent.com/39772824/76639910-60176d00-6592-11ea-87de-ff9c53e1d034.png">
 
 求めたい部分の確率は先ほどと変わりませんが、全体の確率は緑の枠で囲った注目したい部分の中の一番上(かいひりつ上昇)にあたります。
 
